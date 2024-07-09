@@ -10,3 +10,4 @@ psutil # we used 5.7.0
 # Used during training
 deepspeed>=0.4.0
 tensorboardX>=2.2
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
