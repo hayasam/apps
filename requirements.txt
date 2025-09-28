@@ -3,8 +3,8 @@ numpy
 pyext>=0.7
 sacrebleu # we used 1.5.1
 sacremoses # we used 0.0.45
-torch>=1.7
-transformers>=4 
+torch>=2.8.0
+transformers>=4.53.0 
 psutil # we used 5.7.0
 
 # Used during training
