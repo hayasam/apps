@@ -3,10 +3,12 @@ numpy
 pyext>=0.7
 sacrebleu # we used 1.5.1
 sacremoses # we used 0.0.45
-torch>=1.7
+torch>=2.9.0
 transformers>=4 
 psutil # we used 5.7.0
 
 # Used during training
 deepspeed>=0.4.0
 tensorboardX>=2.2
+filelock>=3.20.3 # not directly required, pinned by Snyk to avoid a vulnerability
+urllib3>=2.6.3 # not directly required, pinned by Snyk to avoid a vulnerability
